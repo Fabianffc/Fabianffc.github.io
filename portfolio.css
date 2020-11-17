@@ -16,4 +16,15 @@ padding: 2px;
     background-color: black;
     height:100px;
     margin: 0px;
+    display: flex;
+}
+.links{
+    list-style-type: none;
+    margin-left: 25px;
+    display: flex;
+    padding-left: 20px;
+    color: white;
+
+
+  
 }
