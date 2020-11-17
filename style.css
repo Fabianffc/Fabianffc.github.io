@@ -31,12 +31,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 24px;
 }
 #navbar h2 a{
   text-decoration: none;
   color:#3AAFA9;
   font-size: 32px;
   font-weight: 600;
+  padding: 5px;
 }
 #navbar li a{
   color: #3AAFA9;
@@ -45,6 +47,14 @@ body{
   text-decoration: none;
   font-size: 28 px;
   margin: 0 16;
-  padding: 6px;;
+  padding: 6px;
 
+}
+h2{
+border: 4px solid;
+padding: 3px;
+border-top-color: #3AAFA9;
+border-left-color:#3AAFA9;
+border-right-color:#ffffff;
+border-bottom-color:#ffffff;
 }
