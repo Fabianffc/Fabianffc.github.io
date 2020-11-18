@@ -15,6 +15,11 @@ body{
   padding:5px;
 }
 
+body{
+  background-image: url("./assets/images/undernav.jpg");
+  background-size: 100%;
+}
+
 /* navbar */
 #navbar{
   display: flex;
@@ -25,6 +30,7 @@ body{
   padding: 20px 12px;
   z-index: 1;
   border-bottom: solid 2px  #ffffff;
+  width: 100%;
 }
 #navbar ul{
   list-style: none;
@@ -69,5 +75,29 @@ border-top-color: #3AAFA9;
 border-left-color:#3AAFA9;
 border-right-color:#ffffff;
 border-bottom-color:#ffffff;
+}
+@media screen and (max-width:600px){
+  #navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+  }
+  .home{
+    display:none;
+  }
+}
+@media screen and (max-width:768px){
+  #navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    
+  }
+  .home{display:none;
+  }
 }
 
