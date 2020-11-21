@@ -89,17 +89,21 @@ body{
   display: flex;
   justify-content: space-around;
   height: 350px;
+  margin:20, 20, 0, 20;
+
 }
 
 .box-1{
   flex: 1;
-  background-color:#3AAFA9;
-  margin-left: 20px;
+  margin-left: 5em;
 }
 .box-1 .profile-picture{
   border-radius: 100%;
-  padding: 20px;
-  margin-left:50px;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 350px;
+  border: solid 3px #3AAFA9;
 }
 
 .box-2{
@@ -107,11 +111,14 @@ body{
   color: white;
   font-size: 32px;
   background-color:#3AAFA9;
-  margin: 20px;
+  margin-left: 40px;
+  margin-right: 20px;;
 }
 .box-2 p{
   text-align: center;
-  padding: 50px;
+  padding: 20px;
+  justify-content: center;
+  margin: 30px;
 }
 /* Matching the color for Northwestern with inspect? */
 .box-2 p span{
@@ -140,7 +147,34 @@ body{
   margin:auto;
   margin-bottom: 40px;
 }
+.container-flexbox{
+  display: flex;
+  margin-top: 4em;
+}
+.horiseon{
+  flex-grow: 1;
+  display:flex;
+  justify-content: center;
 
+}
+.pasword{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.horiseon-image{
+  width: 400px;
+  border-radius: 10%;
+  margin:auto;
+  margin-bottom: 40px;
+}
+.pasword-image{
+  width: 400px;
+  border-radius: 10%;
+  margin:auto;
+  margin-bottom: 40px;
+}
 
 
 
