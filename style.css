@@ -76,13 +76,16 @@ body{
 }
 /* home page link and characteristics */
 .hero{
-  display:flex;
+  /* display:flex; */
   background-image: url("./assets/images/undernav.jpg");
-  background-size: cover;
-  height: 700px;
-  width: 100%;  
-  margin-bottom: 25px;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  height:  100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-size:cover;
   border-bottom: solid 2px  #ffffff;
+
 }
 /* About me section displaying picture left and description to the right */
  .container{
@@ -104,6 +107,7 @@ body{
   height: 350px;
   width: 350px;
   border: solid 3px #3AAFA9;
+  border-radius: 2%;
 }
 
 .box-2{
@@ -175,8 +179,25 @@ body{
   margin:auto;
   margin-bottom: 40px;
 }
-
-
+.contact-info{
+  height: 100vh;
+  width: 100%50%;
+  background-color:#3AAFA9;
+  margin: 30px;
+  border: solid 0.85px white
+}
+.contact-info h1{
+  display: inline-block;
+  color: white;
+  margin-top: 2em;
+  margin-left: 1em;
+  border-bottom: 1px solid white;
+  text-align: center;
+  justify-content: center;
+  position:center;
+  font-size: 3em;
+  
+}
 
 
 /* @media screen and (max-width:765px){
