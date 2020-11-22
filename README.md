@@ -1,4 +1,11 @@
-# Portfolio
+# Portfolio. 
+This webpage shows the progress I made during this course. Is divided in mostly three parts the navbar, body where is all the content, and the botton section with the contact information. 
+
+## Built With. 
+
+HTML
+CSS
+Fontsawsome <https://use.fontawesome.com/>
 
 ## Deploy Application
 
