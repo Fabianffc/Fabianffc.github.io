@@ -3,8 +3,10 @@ This webpage shows the progress I made during this course. Is divided in mostly 
 
 ## Built With. 
 
-HTML. 
-CSS
+HTML.   
+
+CSS. 
+
 Fontsawsome <https://use.fontawesome.com/>
 
 ## Deploy Application
