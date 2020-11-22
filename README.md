@@ -3,9 +3,9 @@ This webpage shows the progress I made during this course. Is divided in mostly 
 
 ## Built With. 
 
-HTML.   
+HTML  
 
-CSS. 
+CSS
 
 Fontsawsome <https://use.fontawesome.com/>
 
